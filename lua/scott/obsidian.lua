@@ -28,7 +28,6 @@ return {
         path = '~/obsidian/go_accounting',
       },
     },
-
     -- see below for full list of options 👇
   },
 }

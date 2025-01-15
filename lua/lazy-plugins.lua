@@ -24,7 +24,7 @@ require('lazy').setup({
   -- include a plugin definition from file lua/path/name.lua
   -- [[scott]]
   require 'scott/obsidian',
-
+  require 'scott/stay-centered',
   -- [[kickstart]]
   require 'kickstart/plugins/gitsigns',
   require 'kickstart/plugins/which-key',
