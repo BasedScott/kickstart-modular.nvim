@@ -5,7 +5,7 @@ return {
   priority = 1000,
   keys = {
     {
-      '<leader>t',
+      '<leader>st',
       function()
         require('stay-centered').toggle()
       end,
@@ -14,6 +14,6 @@ return {
   },
   opts = {
     enabled = true,
-    skip_filetypes = { 'lua', 'typescript' },
+    skip_filetypes = {},
   },
 }
