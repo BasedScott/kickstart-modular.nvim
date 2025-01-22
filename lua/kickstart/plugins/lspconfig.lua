@@ -31,10 +31,6 @@ return {
     },
     config = function()
       -- [[scott]]
-      vim.diagnostic.config {
-        virtual_text = true,
-        underline = true,
-      }
 
       -- Brief aside: **What is LSP?**
       --
@@ -197,6 +193,9 @@ return {
         --
         harper_ls = {
           settings = {
+            codeActions = {
+              forceStable = true,
+            },
             markdown = {
               ignore_link_title = true,
             },

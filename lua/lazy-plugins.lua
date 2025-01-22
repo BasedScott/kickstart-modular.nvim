@@ -26,6 +26,8 @@ require('lazy').setup({
   require 'scott/obsidian',
   require 'scott/stay-centered',
   require 'scott/cloak',
+  require 'scott/markview',
+  --  require 'scott/wrapping',
   -- [[kickstart]]
   require 'kickstart/plugins/gitsigns',
   require 'kickstart/plugins/which-key',

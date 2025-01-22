@@ -28,6 +28,7 @@ return {
         path = '~/obsidian/go_accounting',
       },
     },
+    ui = { enable = false },
     -- see below for full list of options 👇
   },
 }
