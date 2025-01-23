@@ -27,6 +27,7 @@ require('lazy').setup({
   require 'scott/stay-centered',
   require 'scott/cloak',
   require 'scott/markview',
+  require 'scott/multicursor',
   --  require 'scott/wrapping',
   -- [[kickstart]]
   require 'kickstart/plugins/gitsigns',
