@@ -23,12 +23,13 @@ require('lazy').setup({
   -- modular approach: using `require 'path/name'` will
   -- include a plugin definition from file lua/path/name.lua
   -- [[scott]]
-  require 'scott/obsidian',
+  --  require 'scott/obsidian',
   require 'scott/stay-centered',
   require 'scott/cloak',
   require 'scott/markview',
   require 'scott/multicursor',
-  --  require 'scott/wrapping',
+  require 'scott/surround',
+  --
   -- [[kickstart]]
   require 'kickstart/plugins/gitsigns',
   require 'kickstart/plugins/which-key',

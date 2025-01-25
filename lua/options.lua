@@ -8,7 +8,7 @@ vim.opt.conceallevel = 1
 vim.opt.wrap = true
 vim.opt.linebreak = true
 vim.opt.breakindent = true
-vim.opt.breakindentopt = { 'shift:2' }
+--vim.opt.breakindentopt = { 'shift:2' }
 
 -- Make line numbers default
 vim.opt.number = true
