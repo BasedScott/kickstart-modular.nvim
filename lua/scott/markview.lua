@@ -7,4 +7,12 @@ return {
     'nvim-treesitter/nvim-treesitter',
     'nvim-tree/nvim-web-devicons',
   },
+  opts = {
+    shift_char = ' ',
+    list_items = {
+      enable = true,
+      indent_size = 4,
+      shift_width = 2,
+    },
+  },
 }
