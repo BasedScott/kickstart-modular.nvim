@@ -15,14 +15,11 @@ return {
       },
       preview = {
         enable = true,
-        modes = { 'n', 'no', 'c', 'i' },
+        modes = { 'n', 'no', 'c', 'v', 'i' },
         debounce = 0,
         hybrid_mode = true,
-        hybrid_modes = { 'n', 'no', 'c' },
+        hybrid_modes = { 'n', 'no', 'c', 'i' },
         linewise_hybrid_mode = true,
-      },
-      latex = {
-        blocks = {},
       },
     }
   end,
