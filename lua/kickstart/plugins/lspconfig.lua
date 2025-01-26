@@ -191,34 +191,34 @@ return {
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         -- ts_ls = {},
         --
-        harper_ls = {
-          settings = {
-            codeActions = {
-              forceStable = true,
-            },
-            markdown = {
-              ignore_link_title = true,
-            },
-            linters = {
-              spell_check = true,
-              spelled_numbers = false,
-              an_a = true,
-              sentence_capitalization = true,
-              unclosed_quotes = true,
-              wrong_quotes = false,
-              long_sentences = false,
-              repreated_words = true,
-              spaces = true,
-              matcher = true,
-              correct_number_suffix = true,
-              number_suffix_capitalization = true,
-              multiple_seqiential_pronouns = false,
-              linking_verbs = false,
-              avoid_curses = false,
-              terminating_conjunctions = true,
-            },
-          },
-        },
+        -- harper_ls = {
+        --   settings = {
+        --     codeActions = {
+        --       forceStable = true,
+        --     },
+        --     markdown = {
+        --       ignore_link_title = true,
+        --     },
+        --     linters = {
+        --       spell_check = true,
+        --       spelled_numbers = false,
+        --       an_a = true,
+        --       sentence_capitalization = true,
+        --       unclosed_quotes = true,
+        --       wrong_quotes = false,
+        --       long_sentences = false,
+        --       repreated_words = true,
+        --       spaces = true,
+        --       matcher = true,
+        --       correct_number_suffix = true,
+        --       number_suffix_capitalization = true,
+        --       multiple_seqiential_pronouns = false,
+        --       linking_verbs = false,
+        --       avoid_curses = false,
+        --       terminating_conjunctions = true,
+        --     },
+        --   },
+        -- },
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },

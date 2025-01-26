@@ -12,10 +12,17 @@ return {
       markdown = {
         headings = presets.headings.simple,
         tables = presets.tables.rounded,
-        --        list_items = {
-        --          indent_size = 4,
-        --          shift_width = 2,
-        --       },
+      },
+      preview = {
+        enable = true,
+        modes = { 'n', 'no', 'c', 'i' },
+        debounce = 0,
+        hybrid_mode = true,
+        hybrid_modes = { 'n', 'no', 'c' },
+        linewise_hybrid_mode = true,
+      },
+      latex = {
+        blocks = {},
       },
     }
   end,
