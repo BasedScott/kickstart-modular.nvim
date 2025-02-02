@@ -15,10 +15,10 @@ return {
       },
       preview = {
         enable = true,
-        modes = { 'n', 'no', 'c', 'v', 'i' },
+        modes = { 'n', 'no', 'c', 'v', 'i', 'r' },
         debounce = 0,
         hybrid_mode = true,
-        hybrid_modes = { 'n', 'no', 'c', 'i' },
+        hybrid_modes = { 'n', 'no', 'c', 'i', 'r' },
         linewise_hybrid_mode = true,
       },
     }

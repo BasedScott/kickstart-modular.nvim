@@ -179,6 +179,7 @@ return {
       --  - settings (table): Override the default settings passed when initializing the server.
       --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
       local servers = {
+        texlab = {},
         -- clangd = {},
         -- gopls = {},
         -- pyright = {},
@@ -196,12 +197,12 @@ return {
         --     codeActions = {
         --       forceStable = true,
         --     },
-        --     markdown = {
+        --     mark{down = {
         --       ignore_link_title = true,
         --     },
         --     linters = {
         --       spell_check = true,
-        --       spelled_numbers = false,
+        --       sp{elled_numbers = false,
         --       an_a = true,
         --       sentence_capitalization = true,
         --       unclosed_quotes = true,
