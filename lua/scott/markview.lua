@@ -21,6 +21,9 @@ return {
         hybrid_modes = { 'n', 'no', 'c', 'i', 'r' },
         linewise_hybrid_mode = true,
       },
+      latex = {
+        enable = true,
+      },
     }
   end,
 }
