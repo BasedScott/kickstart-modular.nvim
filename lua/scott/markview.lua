@@ -14,8 +14,8 @@ return {
         tables = presets.tables.rounded,
         list_items = {
           enable = true,
-          shift_width = 1,
-          indent_size = 1,
+          shift_width = 2,
+          indent_size = 4,
         },
       },
       preview = {

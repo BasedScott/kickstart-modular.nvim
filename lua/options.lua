@@ -8,9 +8,11 @@ vim.opt.conceallevel = 1
 vim.opt.wrap = true
 vim.opt.linebreak = true
 vim.opt.breakindent = true
-vim.o.tabstop = 4
+
+vim.g.markdown_recommended_style = 0
+vim.o.tabstop = 8
 vim.o.expandtab = true
-vim.o.softtabstop = 4
+vim.o.softtabstop = 2
 vim.o.shiftwidth = 2
 
 -- Make line numbers default
