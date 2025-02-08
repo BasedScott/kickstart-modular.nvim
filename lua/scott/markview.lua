@@ -12,6 +12,11 @@ return {
       markdown = {
         headings = presets.headings.simple,
         tables = presets.tables.rounded,
+        list_items = {
+          enable = true,
+          shift_width = 1,
+          indent_size = 1,
+        },
       },
       preview = {
         enable = true,
